@@ -13,7 +13,7 @@ Após carregar os dados para o Power BI eu realizei a modelagem e transformaçã
 
 Por fim o modelo ficou assim:
 
-![Modelo](https://github.com/MatheusFCBarros/Dashboard_Vendas/blob/main/Modelo.png)
+![Modelo](https://github.com/MatheusFCBarros/Dashboard-RetornoInvestimento-DR/blob/main/Modelo.png)
 
 ## Requisitos a serem respondidos
 
@@ -36,23 +36,51 @@ CRYPTOMOEDAS - BITCOIN / EUTHEREUM
 Algumas medidas que foram criadas:
 
 Bitcoin Acum = 
-            SUMX(DB_Bitcoin,DB_Bitcoin[Retorno mensal (%)])
+
+            SUMX(
+            
+                 DB_Bitcoin,
+                 
+                 DB_Bitcoin[Retorno mensal (%)]
+                 
+            )
     
 Bitcoin Acum 2021 = 
+
     CALCULATE( 
-        SUMX(DB_Bitcoin,DB_Bitcoin[Retorno Mensal (%)]),
-                DATESBETWEEN(dCalendario[Data],
-                DATE(2021,1,1),
-                DATE(2021,6,1)
-            )
+    
+        SUMX(
+        
+            DB_Bitcoin,DB_Bitcoin[Retorno Mensal (%)]
+            
+        ),
+        
+            DATESBETWEEN(dCalendario[Data],
+                
+                 DATE(2021,1,1),
+                
+                 DATE(2021,6,1)
+            
+           )
     )
     
 Bitcoin Media Anual = 
-            AVERAGEX(VALUES(dCalendario[AnoNum]), [Bitcoin Acum])
+
+            AVERAGEX(
+            
+                        VALUES(
+                        
+                              dCalendario[AnoNum]
+                              
+                         ), 
+                                    
+                         [Bitcoin Acum]
+                                    
+            )
 
 ## Personalização do layout do relatório
 
-![Dashboard](https://github.com/MatheusFCBarros/Dashboard_Vendas/blob/main/Dashboard.png)
+![Dashboard](https://github.com/MatheusFCBarros/Dashboard-RetornoInvestimento-DR/blob/main/Dashboard.png)
 
 
-Link para visualizar o Dashboard: https://bit.ly/3PTjOTH
+Link para visualizar o Dashboard: https://bit.ly/3CuGRzJ
