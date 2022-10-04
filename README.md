@@ -40,7 +40,10 @@ Bitcoin Acum =
     
 Bitcoin Acum 2021 = 
     CALCULATE( 
-        SUMX(DB_Bitcoin,DB_Bitcoin[Retorno Mensal (%)]),
+    
+        SUMX(
+        
+            DB_Bitcoin,DB_Bitcoin[Retorno Mensal (%)]),
         
                 DATESBETWEEN(dCalendario[Data],
                 
