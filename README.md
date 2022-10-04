@@ -36,7 +36,14 @@ CRYPTOMOEDAS - BITCOIN / EUTHEREUM
 Algumas medidas que foram criadas:
 
 Bitcoin Acum = 
-            SUMX(DB_Bitcoin,DB_Bitcoin[Retorno mensal (%)])
+
+            SUMX(
+            
+                 DB_Bitcoin,
+                 
+                 DB_Bitcoin[Retorno mensal (%)]
+                 
+                 )
     
 Bitcoin Acum 2021 = 
 
@@ -55,9 +62,16 @@ Bitcoin Acum 2021 =
     )
     
 Bitcoin Media Anual = 
+
             AVERAGEX(
+            
                         VALUES(
-                                    dCalendario[AnoNum]), [Bitcoin Acum])
+                        
+                                    dCalendario[AnoNum]), 
+                                    
+                                    [Bitcoin Acum]
+                                    
+                                    )
 
 ## Personalização do layout do relatório
 
