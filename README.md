@@ -51,14 +51,17 @@ Bitcoin Acum 2021 =
     
         SUMX(
         
-            DB_Bitcoin,DB_Bitcoin[Retorno Mensal (%)]),
+            DB_Bitcoin,DB_Bitcoin[Retorno Mensal (%)]
+            
+        ),
         
-                DATESBETWEEN(dCalendario[Data],
+            DATESBETWEEN(dCalendario[Data],
                 
-                DATE(2021,1,1),
+                 DATE(2021,1,1),
                 
-                DATE(2021,6,1)
-            )
+                 DATE(2021,6,1)
+            
+           )
     )
     
 Bitcoin Media Anual = 
@@ -67,11 +70,13 @@ Bitcoin Media Anual =
             
                         VALUES(
                         
-                                    dCalendario[AnoNum]), 
+                              dCalendario[AnoNum]
+                              
+                         ), 
                                     
-                                    [Bitcoin Acum]
+                         [Bitcoin Acum]
                                     
-                                    )
+            )
 
 ## Personalização do layout do relatório
 
