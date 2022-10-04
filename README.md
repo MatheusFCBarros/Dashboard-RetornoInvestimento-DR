@@ -83,4 +83,4 @@ Bitcoin Media Anual =
 ![Dashboard](https://github.com/MatheusFCBarros/Dashboard-RetornoInvestimento-DR/blob/main/Dashboard.png)
 
 
-Link para visualizar o Dashboard: https://app.powerbi.com/view?r=eyJrIjoiOWEzM2M5M2UtNmJhMi00N2RhLTg4NmQtY2Y3MzljMGMzMjlmIiwidCI6Ijk1N2NjZmQwLTlhNjYtNDNhOC04ZDE3LTIxNjMyNjY0ZjU1MiJ9
+Link para visualizar o Dashboard: https://bit.ly/3CuGRzJ
