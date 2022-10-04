@@ -13,7 +13,7 @@ Após carregar os dados para o Power BI eu realizei a modelagem e transformaçã
 
 Por fim o modelo ficou assim:
 
-![Modelo](https://github.com/MatheusFCBarros/Dashboard_Vendas/blob/main/Modelo.png)
+![Modelo](https://github.com/MatheusFCBarros/Dashboard-RetornoInvestimento-DR/blob/main/Modelo.png)
 
 ## Requisitos a serem respondidos
 
@@ -52,7 +52,7 @@ Bitcoin Media Anual =
 
 ## Personalização do layout do relatório
 
-![Dashboard](https://github.com/MatheusFCBarros/Dashboard_Vendas/blob/main/Dashboard.png)
+![Dashboard](https://github.com/MatheusFCBarros/Dashboard-RetornoInvestimento-DR/blob/main/Dashboard.png)
 
 
-Link para visualizar o Dashboard: https://bit.ly/3PTjOTH
+Link para visualizar o Dashboard: https://bit.ly/3SJ5z4K
