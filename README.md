@@ -39,6 +39,7 @@ Bitcoin Acum =
             SUMX(DB_Bitcoin,DB_Bitcoin[Retorno mensal (%)])
     
 Bitcoin Acum 2021 = 
+
     CALCULATE( 
     
         SUMX(
