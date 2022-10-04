@@ -43,7 +43,7 @@ Bitcoin Acum =
                  
                  DB_Bitcoin[Retorno mensal (%)]
                  
-                 )
+            )
     
 Bitcoin Acum 2021 = 
 
