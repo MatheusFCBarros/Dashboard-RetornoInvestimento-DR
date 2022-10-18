@@ -1,5 +1,8 @@
 # Dashboard-RetornoInvestimento-DR
-Dashboard com informações de retorno de investimentps com diversos indicadores financeiros (AINDA EM DESENVOLVIMENTO)
+Dashboard com informações de retorno de investimentos com diversos indicadores financeiros (AINDA EM DESENVOLVIMENTO)
+
+![Dashboard](https://github.com/MatheusFCBarros/Dashboard-RetornoInvestimento-DR/blob/main/Dashboard.png)
+
 
 Nesse projeto eu realizei etapas como:
 
@@ -79,8 +82,6 @@ Bitcoin Media Anual =
             )
 
 ## Personalização do layout do relatório
-
-![Dashboard](https://github.com/MatheusFCBarros/Dashboard-RetornoInvestimento-DR/blob/main/Dashboard.png)
 
 
 Link para visualizar o Dashboard: https://bit.ly/3CuGRzJ
