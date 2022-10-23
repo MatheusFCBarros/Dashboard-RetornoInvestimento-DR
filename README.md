@@ -13,7 +13,7 @@ A base de dados utilizada estava em um único arquivo .xlsx porém com várias a
 ## ETL - Extrair, Transformar e Carregar dados
 
 Após carregar os dados para o Power BI eu realizei a modelagem e transformação dos mesmos conforme a necessidade dos requisitos que eu teria que informar no Dashboard.
-Praticamente todas as tabelas geradas no processo de carregamento dos dados estavam desasjustadas e foi preciso realizar um intenso trabalho de modelagem para deixar as tabelas na forma ideal para o carregamento. Essa modelagem eu realizei usando o Power Query e realizei processos como: "Criar a dCalendario", "Acrescentar consultas", "Escolher outras colunas", Filtrar Datas, "Modelar tipos de dados", "Limpar campos null" entre outros processos
+Praticamente todas as tabelas geradas no processo de carregamento dos dados estavam desasjustadas e foi preciso realizar um intenso trabalho de modelagem para deixar as tabelas na forma ideal para o carregamento. Essa modelagem eu realizei usando o Power Query e realizei processos como: "Criar a dCalendario", "Acrescentar consultas", "Escolher outras colunas", "Filtrar Datas","Dividir coluna para listar datas", "Modelar tipos de dados", "Limpar campos null" entre outros processos
 
 Por fim o modelo ficou assim:
 
