@@ -85,4 +85,4 @@ Bitcoin Media Anual =
 ## Personalização do layout do relatório
 
 
-Link para visualizar o Dashboard: https://bit.ly/3CuGRzJ
+Link para visualizar o Dashboard: bit.ly/3zknS9f
